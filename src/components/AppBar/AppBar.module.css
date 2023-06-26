@@ -1,0 +1,15 @@
+.header {
+    min-width: 440px;
+    margin: 0 auto;
+    max-width: 1030px;
+    background-color: #63d6eb;
+    padding: 20px 10px;
+    border-radius: 3px;
+  }
+  
+  .nav {
+    display: flex;
+    max-width: 950px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }

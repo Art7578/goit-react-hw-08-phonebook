@@ -1,0 +1,36 @@
+.list {
+    padding: 20px 20px;
+    max-width: 480px;
+  }
+  
+  .item {
+    padding: 5px;
+    display: flex;
+    border-bottom: 1px solid #d86c14;
+  }
+  
+  .text {
+    margin-right: auto;
+    line-height: 34px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .button {
+    width: 120px;
+    height: 32px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: inset 1px -1px 15px 1px rgba(194, 9, 9, 0.79);
+    font-size: 16px;
+    border-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color ease-in-out 300ms;
+  }
+  
+  .button:hover {
+    background-color: red;
+    color: white;
+  }

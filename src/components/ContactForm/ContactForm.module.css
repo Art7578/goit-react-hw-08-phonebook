@@ -1,0 +1,38 @@
+.input {
+    padding: 20px;
+    max-width: 480px;
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 3px solid #08c04f;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .form__input:focus {
+    background-color: #3fee4b;
+  }
+  
+  .button {
+    width: 170px;
+    box-shadow: inset 1px -1px 15px 1px rgba(5, 38, 228, 0.79);
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 8px 0px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border-color: rgb(38, 9 ,206);
+    cursor: pointer;
+    transition: background-color ease-in-out 300ms;
+  }
+  
+  .button:hover {
+    background-color: rgba(5, 38, 228, 0.79);
+    color: white;
+  }
